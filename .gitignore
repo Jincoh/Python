@@ -194,4 +194,4 @@ cython_debug/
 .cursorindexingignore
 
 #my ignores:
-./src/chap_proj_xkcd_scraper/images
+src/chap_proj_xkcd_scraper/images/
