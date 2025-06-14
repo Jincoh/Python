@@ -194,4 +194,4 @@ cython_debug/
 .cursorindexingignore
 
 #my ignores:
-.venv
+src/chap_proj_xkcd_scraper/images/
