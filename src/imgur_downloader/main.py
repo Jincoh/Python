@@ -54,5 +54,7 @@ def functionality(stag: str):
 
         num += 1
 
+    driver.close()
+
 if __name__ == "__main__":
     main()
