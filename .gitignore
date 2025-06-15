@@ -195,3 +195,4 @@ cython_debug/
 
 #my ignores:
 src/chap_proj_xkcd_scraper/images/
+src/imgur_downloader/filedir/
