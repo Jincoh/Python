@@ -12,13 +12,11 @@ def main():
     for dr, subdir, files in os.walk(ipath):
         for file in files:
             if re.match(reg, file):
-                print(f"{dr}/{file}")
                 res = reg.search(file)
                 if res == None:
                     continue
-                print(res.group(1))
                 rf = pd.read_excel(f"{dr}/{file}")
-                rf.to_csv(opath / f"{res.group(1)}.csv")
+                rf.to_csv(opath / f"{res.group(1)}.csv", index=False, header=False)
 
 
 if __name__ == "__main__":
