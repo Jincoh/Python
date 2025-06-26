@@ -199,3 +199,4 @@ src/imgur_downloader/filedir/
 *token-drive.pickle
 *token-sheets.pickle
 *credentials-sheets.json
+*outfiles
