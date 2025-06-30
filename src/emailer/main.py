@@ -6,7 +6,6 @@ def main():
         smtp.ehlo()
         smtp.starttls()
         smtp.login("darksoulcgee@gmail.com", argv[1])
-        print("sending {ebody} \nto autotheautomaton...")
         ebody = ("Subject: automated message. \nDear splonkwomble, \nI regret to inform you that iladies have infiltrated the corporation")
         result = smtp.sendmail("darksoulcgee@gmail.com","autotheautomaton@gmail.com", ebody)
         if result != {}:
