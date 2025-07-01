@@ -203,4 +203,5 @@ src/imgur_downloader/filedir/
 *outdir
 *indir
 *tdir
+*.bak
 *secrets
