@@ -200,4 +200,8 @@ src/imgur_downloader/filedir/
 *token-sheets.pickle
 *credentials-sheets.json
 *outfiles
+*outdir
+*indir
+*tdir
+*.bak
 *secrets
